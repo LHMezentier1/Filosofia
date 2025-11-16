@@ -95,6 +95,7 @@ h1{
     font-style: bold;
     font-style: italic;
 }
+}
 
 @media(max-width:720px){
     header{
@@ -131,4 +132,7 @@ h1{
     }
 }
 
+}
+#ns{
+    padding-top:3%;
 }
