@@ -1,3 +1,4 @@
+@media(min-width:1024px){
 :root{
     --main-size:30%;
     --main-color:black;
@@ -44,4 +45,5 @@ h1{
     text-align: center;
     font-style: bold;
     font-style: italic;
+}
 }
