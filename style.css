@@ -1,0 +1,47 @@
+:root{
+    --main-size:30%;
+    --main-color:black;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--main-color);
+    color:white;
+}
+header{
+    z-index: 100;
+    div{
+        margin-top:-1%;
+        background-color:var(--main-color);
+        position:fixed;
+        width:var(--main-size);
+        justify-self: center;
+        h1{
+            color:white;
+            text-align: center;
+        }
+        border-bottom: 3px solid white;
+    }
+}
+h1{
+    color:white
+}
+#ns{
+    justify-self: center;
+    width: var(--main-size);
+    h1{
+        text-align: center;
+    }
+    h2{
+        margin-top:35px;
+        text-align:center;
+    }
+}
+.t{
+    font-size:0.8em;
+    text-align: center;
+    font-style: bold;
+    font-style: italic;
+}
