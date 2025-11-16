@@ -135,10 +135,10 @@ h1{
 }
 @media(min-width:1024px){
 #ns{
-    padding-top:5%;
+    padding-top:3%;
 }
 }
-@media(not(min-width:1024px)){
+@media(max-width:1023px){
 #ns{
     padding-top:7%;
 }
