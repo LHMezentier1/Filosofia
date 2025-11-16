@@ -96,4 +96,21 @@ h1{
     font-style: italic;
 }
 
+@media(max-width:720px){
+    header{
+    z-index: 100;
+    div{
+        margin-top:-5%;
+        background-color:var(--main-color);
+        position:fixed;
+        width:var(--main-size);
+        justify-self: center;
+        h1{
+            color:white;
+            text-align: center;
+        }
+        border-bottom: 3px solid white;
+    }
+}
+
 }
