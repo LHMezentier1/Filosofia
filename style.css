@@ -63,7 +63,7 @@ body{
 header{
     z-index: 100;
     div{
-        margin-top:-2%;
+        margin-top:-3.5%;
         background-color:var(--main-color);
         position:fixed;
         width:var(--main-size);
