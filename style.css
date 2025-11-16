@@ -114,3 +114,21 @@ h1{
 }
 
 }
+@media(max-width:500px){
+    header{
+    z-index: 100;
+    div{
+        margin-top:-7%;
+        background-color:var(--main-color);
+        position:fixed;
+        width:var(--main-size);
+        justify-self: center;
+        h1{
+            color:white;
+            text-align: center;
+        }
+        border-bottom: 3px solid white;
+    }
+}
+
+}
