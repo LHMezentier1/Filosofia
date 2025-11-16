@@ -133,6 +133,13 @@ h1{
 }
 
 }
+@media(min-width:1024px){
 #ns{
-    padding-top:3%;
+    padding-top:5%;
+}
+}
+@media(not(min-width:1024px)){
+#ns{
+    padding-top:7%;
+}
 }
