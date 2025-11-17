@@ -194,3 +194,12 @@ footer{
     font-style: bold;
     font-style: italic;
 }
+p{
+    font-size:1.3em
+}
+h2{
+    font-size:2em;
+}
+footer p{
+    font-size:1em;
+}
